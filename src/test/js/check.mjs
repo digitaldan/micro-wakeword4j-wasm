@@ -43,7 +43,8 @@ const microWakeWord = await loadMicroWakeWord(readFileSync(join(distDirectory, '
 
 let failures = 0
 function check(name, passed, detail = '') {
-  console.log(`${passed ? 'ok  ' : 'FAIL'} ${name}${detail ? ` (${detail})` : ''}`)
+  const logFn = passed ? console.info : console.warn
+  logFn(`${passed ? 'ok  ' : 'FAIL'} ${name}${detail ? ` (${detail})` : ''}`)
   if (!passed) {
     failures++
   }
