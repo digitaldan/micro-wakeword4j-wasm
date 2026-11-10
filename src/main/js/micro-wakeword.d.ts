@@ -55,7 +55,7 @@ export interface WakeWordDetector {
 
   /**
    * Processes the next frame without detection, for tests. Returns the quantized model output, or
-   * NO_OUTPUT when the frame didn't complete a model input.
+   * {@link NO_OUTPUT} when the frame didn't complete a model input.
    */
   infer(frame: Int16Array): number
 
