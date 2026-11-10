@@ -25,7 +25,7 @@ The package holds these files:
 | `LICENSE`, `NOTICE`, `LICENSE-kissfft` | The licenses of this module and of the code it includes |
 
 Models are not included.
-Load them from the [ESPHome model collection](https://github.com/esphome/micro-wake-word-models), the [models bundled with micro-wakeword4j](https://github.com/jvoice-project/micro-wakeword4j/tree/main/src/main/resources/io/github/jvoiceproject/microwakeword), or your own files.
+Load them from the [ESPHome model collection](https://github.com/esphome/micro-wake-word-models), the [models bundled with micro-wakeword4j](https://github.com/jvoice-project/micro-wakeword4j/tree/main/src/main/resources/io/github/jvoiceproject/microwakeword/models), or your own files.
 
 ## Usage
 

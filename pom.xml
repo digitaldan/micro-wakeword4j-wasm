@@ -39,7 +39,7 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <micro-wakeword4j.version>1.0.0-SNAPSHOT</micro-wakeword4j.version>
+    <micro-wakeword4j.version>1.0.0</micro-wakeword4j.version>
     <teavm.version>0.16.0</teavm.version>
     <dist.directory>${project.build.directory}/dist</dist.directory>
     <library.directory>${project.build.directory}/micro-wakeword4j</library.directory>
@@ -243,7 +243,7 @@
                   </includes>
                 </resource>
                 <resource>
-                  <directory>${library.directory}/io/github/jvoiceproject/microwakeword</directory>
+                  <directory>${library.directory}/io/github/jvoiceproject/microwakeword/internal/tflite/frontend</directory>
                   <includes>
                     <include>LICENSE-kissfft</include>
                   </includes>

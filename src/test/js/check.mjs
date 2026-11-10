@@ -21,7 +21,7 @@ import { join } from 'node:path'
 import { pathToFileURL } from 'node:url'
 
 const [distDirectory, libraryDirectory] = process.argv.slice(2)
-const BUILTIN_DIR = join(libraryDirectory, 'io/github/jvoiceproject/microwakeword')
+const BUILTIN_DIR = join(libraryDirectory, 'io/github/jvoiceproject/microwakeword/models')
 const MODELS_DIR = join(libraryDirectory, 'models')
 const AUDIO_DIR = join(libraryDirectory, 'audio')
 const REFERENCE_DIR = join(libraryDirectory, 'reference')
