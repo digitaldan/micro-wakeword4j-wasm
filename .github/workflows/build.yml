@@ -17,6 +17,9 @@ env:
   # the micro-wakeword4j branch or tag to build against while pom.xml names a snapshot of it
   MICRO_WAKEWORD4J_REF: main
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Maven Build
